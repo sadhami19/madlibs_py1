@@ -8,7 +8,7 @@ teach_name = str(input("Enter the teacher's name: "))
 verb2 = str(input("Enter a verb: "))
 adj3 = str(input("Enter an adjective: "))
 
-mlib = (f"It was the start of a {adj1} semester! On the first day of {sem_name}, {stu_name} walked into \
+mlib = ("\n" + f"It was the start of a {adj1} semester! On the first day of {sem_name}, {stu_name} walked into \
 class to find one of their {adj2} older school friends! They {verb1} each other and shared \
 a talk. The class was about to begin and their new teacher {teach_name} walked into class to {verb2} them! \
 University couldn't feel more {adj3} for {stu_name}!")
